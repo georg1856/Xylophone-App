@@ -31,6 +31,9 @@
                                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="40"/>
                                                     <color key="baseForegroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Yi-Lz-ec5"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -52,6 +55,9 @@
                                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="40"/>
                                                     <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dgc-1R-E1b"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -73,6 +79,9 @@
                                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="40"/>
                                                     <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K1a-l7-hhO"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -94,6 +103,9 @@
                                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="40"/>
                                                     <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lmS-P9-jTe"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -115,6 +127,9 @@
                                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="40"/>
                                                     <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="33v-r6-Eo5"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -136,6 +151,9 @@
                                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="40"/>
                                                     <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dbc-ZI-Kiu"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -157,6 +175,9 @@
                                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="40"/>
                                                     <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JNN-Cr-YIu"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
