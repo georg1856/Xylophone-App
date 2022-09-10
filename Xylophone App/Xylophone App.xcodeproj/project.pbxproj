@@ -56,15 +56,71 @@
 		404CD9A028CB4B760069E411 /* Xylophone App */ = {
 			isa = PBXGroup;
 			children = (
-				404CD9A128CB4B760069E411 /* AppDelegate.swift */,
-				404CD9A328CB4B760069E411 /* SceneDelegate.swift */,
-				404CD9A528CB4B760069E411 /* ViewController.swift */,
-				404CD9A728CB4B760069E411 /* Main.storyboard */,
+				406A4B4E28CC5221003097B5 /* Resources */,
+				406A4B4D28CC521A003097B5 /* Sources */,
+			);
+			path = "Xylophone App";
+			sourceTree = "<group>";
+		};
+		406A4B4D28CC521A003097B5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				406A4B5028CC523A003097B5 /* Scenes */,
+				406A4B4F28CC5232003097B5 /* App */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		406A4B4E28CC5221003097B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				404CD9AA28CB4B760069E411 /* Assets.xcassets */,
 				404CD9AC28CB4B760069E411 /* LaunchScreen.storyboard */,
 				404CD9AF28CB4B760069E411 /* Info.plist */,
 			);
-			path = "Xylophone App";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		406A4B4F28CC5232003097B5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				404CD9A128CB4B760069E411 /* AppDelegate.swift */,
+				404CD9A328CB4B760069E411 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		406A4B5028CC523A003097B5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				406A4B5328CC5266003097B5 /* Extension */,
+				406A4B5228CC5253003097B5 /* Controller */,
+				406A4B5128CC5249003097B5 /* Storyboard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		406A4B5128CC5249003097B5 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				404CD9A728CB4B760069E411 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		406A4B5228CC5253003097B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				404CD9A528CB4B760069E411 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		406A4B5328CC5266003097B5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +347,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 636TS9JX4X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Xylophone App/Info.plist";
+				INFOPLIST_FILE = "Xylophone App/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +375,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 636TS9JX4X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Xylophone App/Info.plist";
+				INFOPLIST_FILE = "Xylophone App/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
