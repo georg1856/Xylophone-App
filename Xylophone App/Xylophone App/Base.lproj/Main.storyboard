@@ -19,14 +19,15 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="xw9-Tp-ngP">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iel-5z-4Fw">
+                                    <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="Iel-5z-4Fw">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="110"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FXo-t9-0ge">
                                                 <rect key="frame" x="5" y="0.0" width="404" height="110"/>
-                                                <color key="backgroundColor" red="0.1635301113" green="0.4707818627" blue="0.66820925470000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.33978977799999999" green="0.99430114030000005" blue="0.95740920309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" systemColor="systemGray4Color"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="C">
+                                                <buttonConfiguration key="configuration" style="plain" title="C" cornerStyle="capsule">
                                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="40"/>
                                                     <color key="baseForegroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
@@ -44,7 +45,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u9H-6r-BY8">
                                                 <rect key="frame" x="15" y="0.0" width="384" height="110"/>
-                                                <color key="backgroundColor" red="0.25673750039999998" green="0.70614486929999998" blue="0.95001238580000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.15876254440000001" green="0.091594390570000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" systemColor="tintColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="D">
@@ -66,7 +67,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Klc-sF-Vqf">
                                                 <rect key="frame" x="20" y="0.0" width="374" height="110"/>
-                                                <color key="backgroundColor" red="0.94760125880000001" green="0.87313812970000004" blue="0.23020845649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.94982820749999997" green="0.068040080370000006" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="E">
                                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="40"/>
@@ -87,7 +88,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLH-Pu-nDI">
                                                 <rect key="frame" x="25" y="0.0" width="364" height="110"/>
-                                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.95588511229999995" green="0.0035299907900000001" blue="0.010151070539999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="F">
                                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="40"/>
@@ -108,7 +109,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j3c-nb-rpU">
                                                 <rect key="frame" x="30" y="0.0" width="354" height="110"/>
-                                                <color key="backgroundColor" red="0.16217449310000001" green="0.20328801869999999" blue="0.3834215701" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.96342629189999995" green="0.4985015988" blue="0.0094594489779999992" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="G">
                                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="40"/>
@@ -129,7 +130,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pd7-ni-HkP">
                                                 <rect key="frame" x="35" y="0.0" width="344" height="110"/>
-                                                <color key="backgroundColor" red="0.90994155409999999" green="0.66619271040000005" blue="0.2593899965" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.98613017800000002" green="0.93833667040000002" blue="0.0091611351819999992" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="A">
                                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="40"/>
@@ -150,7 +151,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mlz-JP-T53">
                                                 <rect key="frame" x="40" y="0.0" width="334" height="110"/>
-                                                <color key="backgroundColor" red="0.98766773939999997" green="0.89908558130000005" blue="0.70522344110000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.3056105375" green="0.99752706290000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="B">
                                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="40"/>
@@ -187,6 +188,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tintColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
